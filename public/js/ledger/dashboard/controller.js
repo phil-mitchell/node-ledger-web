@@ -4,12 +4,12 @@ define([
   './navigation',
   './dashboard',
   'backbone', 'marionette', 'vent', 'jquery', 'underscore', 'react'
-], function(Ledger, Models, Navigation, Dashboard, Backbone, Marionette, vent, $, _, React) {
+], function( Ledger, Models, Navigation, Dashboard, Backbone, Marionette, vent, $, _, React) {
   'use strict';
-
+    
   var Controller = function () {
     this.sections = new Models.Sections([
-      new Models.Section({title: 'Home', name: 'dashboard', url: '/', active: true}),
+      new Models.Section({title: 'Home', name: 'dashboard', url: './', active: true}),
       new Models.Section({title: 'Income', name: 'income', url: 'income'}),
       new Models.Section({title: 'Spending', name: 'spending', url: 'spending'}),
       new Models.Section({title: 'Worth', name: 'worth', url: 'worth'}),

@@ -53,7 +53,7 @@ define([
 
   var Balances = Backbone.Collection.extend({
     model: Balance,
-    url: '/api/balance'
+    url: 'api/balance'
   });
   
   return {

@@ -32,7 +32,7 @@ define([
 
       return (
         React.DOM.div( {className:"navbar-inner"}, 
-          React.DOM.a( {className:"brand", href:"/"}, "Ledger"),
+          React.DOM.a( {className:"brand", href:"./"}, "Ledger"),
           React.DOM.ul( {className:"nav"}, 
             itemNodes
           )

@@ -39,14 +39,14 @@ define([
   // ---------------
   var Income = Backbone.Collection.extend({
     model: Entry,
-    url: '/api/register/Income'
+    url: 'api/register/Income'
   });
   
   // Expenses Collection
   // ---------------
   var Expenses = Backbone.Collection.extend({
     model: Entry,
-    url: '/api/register/Expenses'
+    url: 'api/register/Expenses'
   });
 
   // Aggregated Income + Expenses Collection

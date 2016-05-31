@@ -46,14 +46,14 @@ define([
   // ---------------
   var Assets = Backbone.Collection.extend({
     model: Entry,
-    url: '/api/register/Assets'
+    url: 'api/register/Assets'
   });
   
   // Liabilities Collection
   // ---------------
   var Liabilities = Backbone.Collection.extend({
     model: Entry,
-    url: '/api/register/Liabilities'
+    url: 'api/register/Liabilities'
   });
 
   // Aggregated Assets + Liabilities Collection

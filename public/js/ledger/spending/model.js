@@ -42,7 +42,7 @@ define([
 
   var Expenses = Backbone.Collection.extend({
     model: Entry,
-    url: '/api/register/Expenses',
+    url: 'api/register/Expenses',
     
     getDateRange: function() {
       var from = _.min(this.map(function(entry) { return entry.getDate(); })),

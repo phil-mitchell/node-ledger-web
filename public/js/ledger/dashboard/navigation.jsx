@@ -23,7 +23,7 @@ define([
   });
 
   var Navigation = createBackboneClass({
-    render: function() {
+      render: function() {
       var itemNodes = this.props.model.map(function(section) {
         return (
           <Item model={section} key={section.get('url')} />
@@ -32,7 +32,7 @@ define([
 
       return (
         <div className="navbar-inner">
-          <a className="brand" href="/">Ledger</a>
+          <a className="brand" href="./">Ledger</a>
           <ul className="nav">
             {itemNodes}
           </ul>
